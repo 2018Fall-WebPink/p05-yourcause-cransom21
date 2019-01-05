@@ -1,0 +1,102 @@
+/*
+* Celea Ransom
+* Due Date
+* Your Cause
+*/
+
+/* The universal selector */
+
+*  {
+margin: 0;
+padding: 0;
+}
+
+/* Body attributes here */
+
+body { /* body uses background-color to define the color for the entire page*/
+background-color: lightcyan;
+}
+h1 { /*margin and padding are used on all four sides, a border is added on the bottom and the font is defined with font-family*/
+    margin: 15px;
+    padding: 10px;
+    border-bottom: 4px solid brown;
+    text-align: center;
+    font-family: monospace;
+    color: brown;
+}
+#no { /* # is used for the ID and a margin is added in static pixels.*/
+    margin-bottom: 50px;
+}
+#first { /* the margins are defined with static pixels and is floated to the left which lets the text move next to it*/
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    width: 250px;
+    height: 200px;
+    float: left;
+    border: 3px inset lime;
+
+}
+#two { /*the float from the image above is cleared with "clear: both", margin and height are set with static pixels and width is defined in a percent of the screen*/ 
+    clear: both;
+    margin: 10px 7px 15px;
+    width: 20%;
+    height: 150px; 
+    float: left;
+    border: 3px inset lime;
+}
+#three {
+  margin: 10px 7px 15px;
+    width: 16%;
+    height: 150px; 
+    float: left;
+    border: 3px inset lime;  
+}
+#four {
+    margin: 10px 7px 15px;
+    width: 18%;
+    height: 150px; 
+    float: left;
+    border: 3px inset lime;
+}
+#five {
+    margin: 10px 7px 15px;
+    width: 8%;
+    height: 150px; 
+    float: left;
+    border: 3px inset lime;
+}
+#six {
+margin: 10px 7px 15px;
+    width: 30%;
+    height: 150px; 
+    float: left;
+    border: 3px inset lime;
+}
+#ugh { /*the header is floated left so that it doesnt fill in between the images*/
+    float: left;
+}
+#idk {
+    float: left;
+}
+#duck {
+    float: right;
+}
+h2 {
+    font-family: monospace; 
+    color: brown;
+    margin: 5px;
+}
+p {
+    font-family: "Comic Sans MS";
+    margin: 7px;
+}
+a {
+    font-family: "Comic Sans MS";
+}
+footer {
+    clear: both;
+    margin: 7px;
+    padding: 5px;
+    border-top: 4px solid brown;
+}
